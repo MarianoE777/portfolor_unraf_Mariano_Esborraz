@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background:linear-gradient(#f4f054,#e6df39,#99b621, #a8c726);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cubo{
+    width: 500px;
+    height: 80%;
+    padding: 20px 10px 10px;
+    position: relative;
+    background-color: #fffd6e;
+}
+header{
+    background-color: #fff833;
+    color:black ;
+    text-align: center;
+    font-size: 12px;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px #999639;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.cubo{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shrek{
+    display: flex;
+    gap:10px;
+    margin-bottom: 10px;
+
+}
+.shrek1{
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #787c7e;
+    outline: none;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    
+}
+.goku{
+    text-align: center;
+    font-size: 36px;
+}
+.pirata{
+    width: 170px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    background-color: #6AAA64;
+    font-size: 32px;
+    color: #fff;
+}
+.pirata:hover{
+    border: 3px solid #6AAA64;
+    background-color: #FFF;
+    color: #6AAA64;
+    cursor: pointer;
+}
+.pirata2{
+    width: 170px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    background-color: #6AAA64;
+    font-size: 32px;
+    color: #fff;
+}
+.pirata2:hover{
+    border: 3px solid #6AAA64;
+    background-color: #FFF;
+    color: #6AAA64;
+    cursor: pointer;
+}
+.gray{
+    background-color: #787c7e;
+}
+.gold{
+    background-color: #C9B458;
+}
+.green{
+    background-color: #6AAA64;
+}

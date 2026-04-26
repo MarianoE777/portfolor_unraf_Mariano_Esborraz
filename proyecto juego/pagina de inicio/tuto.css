@@ -1,0 +1,83 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffde7; /* Amarillo muy clarito */
+    color: #333;
+}
+
+header {
+    background-color: #fffd6e; /* Amarillo clarito */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4caf50; /* Verde más oscuro */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.tutorial-links {
+    margin: 20px 0;
+}
+
+.tutorial-button {
+    display: inline-block;
+    background-color: #4caf50; /* Verde */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px; /* Espaciado entre botones */
+}
+
+.tutorial-button:hover {
+    background-color: #45a049; /* Verde más oscuro */
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #dcedc8; /* Verde clarito */
+}

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffde7; /* Verde clarito */
+    color: #333;
+}
+
+header {
+    background-color:#fffd6e; /* Amarillo clarito */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4caf50; /* Verde más oscuro */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex; /* Usamos flexbox para alinear los recuadros */
+    justify-content: center; /* Centrar los recuadros */
+    gap: 20px; /* Espaciado entre los recuadros */
+}
+
+.contact-info {
+    background-color: #ffffff;
+    border: 2px solid #4caf50; /* Verde */
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px; /* Ancho fijo para los recuadros */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #dcedc8; /* Verde clarito */
+}
